@@ -346,6 +346,7 @@
       },
 
       value(val, oldVal) {
+        console.log(val,oldVal);
         if (this.multiple) {
           this.resetInputHeight();
           if ((val && val.length > 0) || (this.$refs.input && this.query !== '')) {

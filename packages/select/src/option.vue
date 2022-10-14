@@ -108,6 +108,7 @@
       },
 
       contains(arr = [], target) {
+        console.log(target);
         if (!this.isObject) {
           return arr && arr.indexOf(target) > -1;
         } else {
